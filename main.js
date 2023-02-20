@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".services__cards").owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 5,
     responsiveClass: true,
     nav: true,
     dots:false,
