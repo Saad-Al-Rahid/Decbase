@@ -46,11 +46,19 @@ img {
   width: 100%;
 }
 
+.main__btn {
+  background-color: #37806b;
+  color: #fff;
+  border: 2px solid #37806b;
+  border-radius: 20px 0px;
+  padding: 5px 25px;
+  width: max-content;
+}
+
 /* ===HEADER SECTION START=== */
 
-
-.navbar{
-  margin-top: 41px;
+.navbar {
+  padding-top: 41px;
 }
 
 header .navbar-brand {
@@ -72,12 +80,58 @@ header .nav-link.active {
   color: #646464;
 }
 
-header .header__btn{
+header .header__btn {
   background-color: #caa892;
   color: #fff;
   border: 2px solid #caa892;
   border-radius: 20px 0px;
   padding: 5px 25px;
+  margin-left: 64px;
 }
 
 /* ===HEADER SECTION END=== */
+
+/* ===HERO SECTION START=== */
+
+#hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+#hero h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #646464;
+}
+
+#hero h1 {
+  font-size: 72px;
+  line-height: 78px;
+}
+
+#hero p {
+  line-height: 30px;
+  margin-bottom: 46px;
+}
+
+#hero .img__overlay {
+  position: relative;
+  z-index: 1;
+}
+
+#hero .img__overlay::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 30px;
+  left: 30px;
+  border: 2px solid #b0855b;
+  border-radius: 140px 0px;
+  z-index: -1;
+}
+
+/* ===HERO SECTION END=== */
