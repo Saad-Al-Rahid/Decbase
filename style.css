@@ -127,11 +127,89 @@ header .header__btn {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 30px;
-  left: 30px;
+  top: 20px;
+  left: 20px;
   border: 2px solid #b0855b;
   border-radius: 140px 0px;
   z-index: -1;
 }
 
+.fixed__img__hero {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+
 /* ===HERO SECTION END=== */
+
+/* ===SERVICES SECTION START=== */
+
+#services {
+  padding: 50px 0;
+}
+
+.services__cards {
+  margin-top: 50px;
+  padding: 50px 10px;
+}
+
+.services__cards .service__card {
+  background: #ffffff;
+  padding: 20px 20px 25px 30px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+  /* border: 2px solid red; */
+  border-radius: 60px 0px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.services__cards .service__card .service__content h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.services__cards .service__card .service__content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #646464;
+}
+
+.services__card__outer{
+  padding: 20px;
+}
+
+.services__cards .service__card i {
+  font-size: 40px;
+  margin-right: 10px;
+  display: block;
+}
+
+.services__cards .owl-nav {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+
+.services__cards .owl-nav span {
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.services__cards .owl-nav .owl-next span{
+  background: #37806B;
+  color: #fff;
+}
+
+/* ===SERVICES SECTION END=== */
