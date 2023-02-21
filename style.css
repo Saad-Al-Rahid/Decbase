@@ -369,6 +369,11 @@ header .header__btn {
   flex-direction: column;
 }
 
+.single__work h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .down__work {
   margin-top: 91px;
 }
@@ -382,8 +387,8 @@ header .header__btn {
   position: absolute;
   top: 91px;
   left: 184px;
-  border-top: 1px solid red;
-  border-right: 1px solid red;
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
   width: 92px;
   height: 91px;
 }
@@ -393,8 +398,8 @@ header .header__btn {
   position: absolute;
   top: 91px;
   right: 184px;
-  border-top: 1px solid red;
-  border-left: 1px solid red;
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
   width: 92px;
   height: 91px;
 }
@@ -408,7 +413,7 @@ header .header__btn {
   position: absolute;
   width: 94px;
   height: 91px;
-  border-top: 1px solid red;
+  border-top: 1px solid #e0e0e0;
   top: 91px;
   right: 184px;
 }
@@ -418,9 +423,188 @@ header .header__btn {
   position: absolute;
   width: 94px;
   height: 91px;
-  border-top: 1px solid red;
+  border-top: 1px solid #e0e0e0;
   top: 91px;
   left: 184px;
 }
 
 /* ===WORK SECTION END=== */
+
+/* ===TESTIMONIAL SECTION START=== */
+
+#testimonial {
+  padding: 140px 0;
+}
+
+.testimonial__card__cover {
+  padding: 50px;
+}
+
+.testimonial__cards {
+  margin-top: 100px;
+}
+
+.testimonial__card {
+  display: flex;
+  /* gap: .5rem; */
+  padding: 40px 40px 0px 0;
+  background: #ffffff;
+  box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+  border-radius: 70px 0px;
+}
+
+.testimonial__card__img {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.testimonial__card__img img {
+  margin-left: -40px;
+}
+
+.testimonial__card__content__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial__card__content__heading h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #212121;
+}
+
+.testimonial__card__content__heading h4 span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #646464;
+}
+
+.testimonial__card__content__heading i {
+  font-size: 34px;
+  color: #b0855b;
+}
+
+.testimonial__cards .owl-nav {
+  position: absolute;
+  top: -50px;
+  right: 40px;
+}
+
+.testimonial__cards .owl-nav span {
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.testimonial__cards .owl-nav .owl-next span {
+  background: #37806b;
+  color: #fff;
+}
+
+/* ===TESTIMONIAL SECTION END=== */
+
+/* ===BLOG SECTION START=== */
+
+#blog {
+  padding: 90px 0;
+  background: #f8f8f8;
+}
+
+.blog__img img {
+  border-radius: 120px 0px;
+}
+
+.blog__img {
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.blog__img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #b0855b;
+  border-radius: 140px 0px;
+  left: 20px;
+  top: 20px;
+  z-index: -1;
+}
+
+#blog h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  margin-bottom: 1rem;
+}
+
+#blog p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+/* ===BLOG SECTION END=== */
+
+/* ===SIGNUP SECTION START=== */
+
+#signup {
+  padding: 180px 0;
+}
+
+#signup h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+}
+
+#signup .line {
+  max-width: 700px;
+  height: 2px;
+  background: #f8f8f8;
+  margin: 30px auto;
+}
+
+.form__group {
+  margin: 30px auto;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-radius: 20px 0px;
+  background: #eee;
+}
+
+.form__group input {
+  background: transparent;
+  width: 100% !important;
+  padding-left: 27px;
+  border: none;
+  outline: none;
+}
+
+.subscribe__btn {
+  padding: 5px 25px;
+  background: #37806b;
+  color: #fff;
+  border: none;
+  border-radius: 0px 0px 20px 0px;
+}
+/* ===SIGNUP SECTION END=== */
